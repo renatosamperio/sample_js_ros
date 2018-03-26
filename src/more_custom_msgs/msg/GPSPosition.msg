@@ -1,0 +1,24 @@
+Header header
+
+uint64 time_utc_usec
+float32 lat
+float32 lon
+float32 alt
+float32 alt_ellipsoid
+float32 s_variance_m_s
+float32 c_variance_rad
+float32 eph
+float32 epv
+float32 hdop
+float32 vdop
+int32 noise_per_ms
+int32 jamming_indicator
+float32 vel_m_s
+float32 vel_n_m_s
+float32 vel_e_m_s
+float32 vel_d_m_s
+float32 cog_rad
+int32 timestamp_time_relative
+uint8 fix_type
+bool vel_ned_valid
+uint8 satellites_used

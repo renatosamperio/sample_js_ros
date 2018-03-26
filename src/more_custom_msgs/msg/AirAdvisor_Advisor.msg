@@ -1,0 +1,13 @@
+string  id
+string  name
+string  last_updated
+float32 latitude
+float32 longitude
+float32 distance
+string  type
+string  city
+string  state
+string  country
+string  properties_json
+string  color
+string  requirements

@@ -1,0 +1,15 @@
+std_msgs/Header header
+uint32         serialnumber
+uint16         error
+float32        voltage0
+float32        current0
+float32        voltage1
+float32        current1
+float32        voltage2
+float32        current2
+float32        heading
+int8           temperature0
+int8           temperature1
+int8           temperature2
+int8           pitch
+int8           roll

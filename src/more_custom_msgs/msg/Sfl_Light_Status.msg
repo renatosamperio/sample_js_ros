@@ -1,0 +1,12 @@
+std_msgs/Header header
+uint32         serialnumber
+uint8          power
+uint8          mode
+uint8          alarmprofile
+uint16         hue
+uint16         saturation
+uint16         value
+uint16         red
+uint16         green
+uint16         blue
+uint16         white

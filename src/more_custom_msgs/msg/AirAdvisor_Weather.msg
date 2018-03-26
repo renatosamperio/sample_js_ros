@@ -1,0 +1,11 @@
+std_msgs/Header header
+string  source
+string  condition
+string  icon
+int32   wind_heading
+int32   wind_speed
+int32   wind_gusting
+float32 humidity
+int32   visibility
+int32   precipitation
+int32   temperature

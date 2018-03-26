@@ -1,0 +1,9 @@
+std_msgs/Header header
+ uint8 id
+ int32 x
+ int32 y
+ uint16 heading
+ float32 speed
+ float32 cadence
+ uint16 amplitude
+ uint8 type

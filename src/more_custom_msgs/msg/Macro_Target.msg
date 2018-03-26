@@ -1,0 +1,17 @@
+string                  target_id
+bool                    hanging
+int64                  id
+int8                   status
+float64                 confidence
+int32                  objects_length
+Macro_Info              info
+Macro_Measurement       measurement
+Macro_TimePosition      position
+Macro_Position          velocity
+Macro_Position          position_uncertainty
+Macro_Position          velocity_uncertainty
+Macro_Position          predicted_velocity
+Macro_Position          predicted_position_uncertainty
+Macro_Position          predicted_velocity_uncertainty
+Macro_TimePosition      predicted_position
+Macro_TimePosition[]    position_over_time

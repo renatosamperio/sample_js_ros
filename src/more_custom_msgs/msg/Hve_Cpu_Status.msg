@@ -1,0 +1,8 @@
+std_msgs/Header header
+float32 cpu_usage
+int32 total_memory
+int32 free_memory
+int32 used_memory
+float32 cpu_temperature
+float32 gpu_temperature
+float32 board_temperature

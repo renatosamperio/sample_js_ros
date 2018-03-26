@@ -1,0 +1,10 @@
+int64          idx
+string         node_id
+int8           temperature
+int8           humidity
+int32          pressure
+int16          light
+int16          uv
+int16          ir
+int8           led_temp1
+int8           led_temp2

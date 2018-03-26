@@ -1,0 +1,11 @@
+std_msgs/Header header
+uint32           serialnumber
+uint16           fade_time1
+uint16           hsv1_hue
+uint8            hsv1_saturation
+uint8            hsv1_value
+uint16           pause_time
+uint16           fade_time2
+uint16           hsv2_hue
+uint8            hsv2_saturation
+uint8            hsv2_value

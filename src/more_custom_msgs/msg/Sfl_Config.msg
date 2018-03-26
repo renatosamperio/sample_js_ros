@@ -1,0 +1,17 @@
+std_msgs/Header header
+uint32         serialnumber
+uint16         defaultHue
+uint8          defaultSaturation
+uint8          defaultValue
+uint16         fadetime
+uint8          lightPowerOnStart
+uint8          lightStartUpMode
+float32        declination
+uint16         topPirMask
+uint16         bottomPirMask
+uint8          rfChannel
+uint8          rfSSID
+uint8          rfPower
+uint8          rfNumHoppingChannels
+uint8          rfSelfSynced
+uint8          rfEncryption

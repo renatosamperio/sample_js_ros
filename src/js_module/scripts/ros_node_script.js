@@ -17,4 +17,11 @@ msg.header.stamp = rosnodejs.Time.now();
 console.log("- Created single custom message");
 console.log(msg);
 
+rosnodejs.initNode('my_node', { onTheFly: true })
+.then(() => {
+  const custom_messages_module = rosnodejs.require('custom_messages_module').msg;
+  const more_custom_msgs = rosnodejs.require('more_custom_msgs').msg;
+});
+
 const more_custom_msgs = rosnodejs.require('more_custom_msgs').msg;
+

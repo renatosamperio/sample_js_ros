@@ -6,14 +6,13 @@ project(js_module)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   custom_messages_module
-  roscpp
-  rospy
   std_msgs
+  more_custom_msgs
 )
 
 ## Declare a catkin package
 catkin_package(
-   CATKIN_DEPENDS message_runtime std_msgs custom_messages_module
+   CATKIN_DEPENDS std_msgs custom_messages_module more_custom_msgs
 )
 
 ###########

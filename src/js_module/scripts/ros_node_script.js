@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+'use strict';
 const rosnodejs = require('rosnodejs');
 const custom_messages_module = rosnodejs.require('custom_messages_module').msg;
 const std_msgs  = rosnodejs.require('std_msgs').msg;
@@ -13,5 +14,7 @@ msg.strings.push("world");
 msg.number = 10;
 msg.header.stamp = rosnodejs.Time.now();
 
-console.log("- Created custom message");
+console.log("- Created single custom message");
 console.log(msg);
+
+const more_custom_msgs = rosnodejs.require('more_custom_msgs').msg;
